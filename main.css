@@ -1,0 +1,94 @@
+.box1 {
+  width : 100%;
+  height: 100px;
+  box-sizing: border-box;
+}
+
+.inner-box1 {
+  width : 250px;
+  height: 60px;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.image1 {
+  width:200px;
+  height: 65px;
+}
+
+.box2 {
+  height: 500px;
+  box-sizing: border-box;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  
+.image2 {
+  height: 500px;
+  width: 100%;
+}
+
+.nav-bar-div {
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.nav-item{
+        margin-left: 120px;
+}
+
+.nav-link{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+}
+
+.inner-box2{
+  width: 100%;
+  height: 450px;
+}
+
+.heading{
+  font-size: 60px;
+  font-family: Luminari, fantasy;
+  margin-left: 180px;
+  margin-top: 80px;
+}
+
+.email-box {
+  width: 300px;
+  font-family: cursive;
+  box-sizing: border-box;
+  border-style: solid;
+  text-align: center;
+  margin-left: 180px;
+}
+
+.thought{
+  margin-left: 180px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.box3{
+  height: 140px;
+  padding-top: 30px;
+}
+
+.follow {
+  box-sizing: border-box;
+  margin-left: 680px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.follow-icon{
+  width: 40px;
+  height: 40px;
+}
+.last-line{
+  margin-left:610px;
+}
