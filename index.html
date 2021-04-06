@@ -5,16 +5,15 @@
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="main1.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div>
-
     <div class="row">
-          <div class="col box1">
+          <div class="col col-lg col-sm col-md box1">
               <div class="inner-box1">
                 <img class= "image1" src = "brand.png">
               </div>
@@ -22,30 +21,35 @@
     </div>
 
     <div class="row">
-           <div class="col-8 box2" style = "background-color:lavender;">
+           <div class="col-8 col-lg-8 col-sm-8 col-md-8 box2" style = "background-color:lavender;">
              <div class="row">
-                       <div class="col nav-bar-div">
-                                 <nav class="navbar navbar-expand-sm">
+                        <div class="col">
+                                 <nav class="navbar navbar-expand-md">
+                                   <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                                    <img src="menu.png">
+                                   </button>
                                       <!--Links-->
+                                    <div class="collapse navbar-collapse" id="navbarCollapse">
                                       <ul class="navbar-nav">
                                           <li class="nav-item">
-                                              <a class = "nav-link" href="#"> New In </a>
+                                              <a class = "nav-link" href="newin.html"> New In </a>
                                           </li>
                                           <li class="nav-item">
                                               <a class = "nav-link" href="#"> Clothing </a>
                                           </li>
                                           <li class="nav-item">
-                                              <a class = "nav-link" href="#"> Designer </a>
+                                              <a class = "nav-link" href="designer.html"> Designer </a>
                                           </li>
                                           <li class="nav-item">
                                               <a class = "nav-link" href="#"> Contact </a>
                                           </li>
                                       </ul>
+                                    </div>
                                  </nav>
                        </div>
               </div>
               <div class="row">
-                      <div class="col inner-box2" >
+                      <div class="col col-lg col-sm col-md inner-box2">
                          <div class = "heading">
                              BE THE FIRST
                             <br>
@@ -65,7 +69,7 @@
                       </div>
               </div>
           </div>
-          <div class="col-4 box2">
+          <div class="col-4 col-lg-4 col-sm-4 col-md-4 box2">
             <img class= "image2" src="image1.jpg">
           </div>
     </div>
@@ -97,76 +101,24 @@
         </div>
     </div>
     <br>
-    <div class="container">
-        <div class="filter-box">
-            <a href="#" class="btn active" data-filter="all">All</a>
-            <a href="#" class="btn" data-filter="male">Male</a>
-            <a href="#" class="btn" data-filter="female">Female</a>
-        </div>
-    </div>
-    <br>
-    <div class="slide-container">
-        <section class="container" id="store-products">
-          <div class="store-product male">
-            <img src="male1.jpg" alt="">
-          </div>
-          <div class="store-product female">
-            <img src="female1.jpg" alt="">
-          </div>
-          <div class="store-product male">
-            <img src="male2.jpg" alt="">
-          </div>
-          <div class="store-product female">
-            <img src="female2.jpg" alt="">
-          </div>
-          <div class="store-product male">
-            <img src="male3.jpg" alt="">
-          </div>
-          <div class="store-product female">
-            <img src="female3.jpg" alt="">
-          </div>
-          <div class="store-product male">
-            <img src="male4.jpg" alt="">
-          </div>
-          <div class="store-product female">
-            <img src="female4.jpg" alt="">
-          </div>
-          <div class="store-product male">
-            <img src="male5.jpg" alt="">
-          </div>
-          <div class="store-product female">
-            <img src="female5.jpg" alt="">
-          </div>
-          <div class="store-product male">
-            <img src="male6.jpg" alt="">
-          </div>
-          <div class="store-product female">
-            <img src="female6.jpg" alt="">
-          </div>
-        </section>
-    </div>
-    <br>
     <div class="row">
-        <div class="col box3">
+        <div class="col col-lg col-sm col-md box3">
             <div class="follow">
                 You can follow us on
             </div>
             <br>
             <div class="row ">
-                <div class="col-1 last-line">
+                <div class="col-1 col-lg-1 col-sm-1 col-md-1 last-line">
                   <img class="follow-icon" src="facebook.png">
                 </div>
-                <div class="col-1">
+                <div class="col-1 col-lg-1 col-sm-1 col-md-1">
                   <img class="follow-icon" src="twitter.png">
                 </div>
-                <div class="col-1">
+                <div class="col-1 col-lg-1 col-sm-1 col-md-1">
                   <img class="follow-icon" src="instagram.png">
                 </div>
             </div>
         </div>
     </div>
-  </div>
-
-   <script src="myscripts.js"></script>
 </body>
 </html>
